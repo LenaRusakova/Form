@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href = "styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <script src="reactions.js"></script>
+</head>
+<body>
+<div class="central">
+    <form action = "https://digital-spectr.com/ac/academy.php" method="POST">
+        <h1>Задать вопрос</h1>
+        <input type="text" name = "name" placeholder="Фамилия Имя Отчество *" id="name" autocomplete="off" required
+        onmouseover="OnMouseOver(this)" onmouseout="OnMouseOut(this)" onfocus="OnFocus(this)" onblur="OnBlur(this)"
+               pattern = "[А-Яа-я -]+">
+
+        <input type="text" name = "phone" placeholder="Телефон *" id="telephone" autocomplete="off" required
+        onmouseover="OnMouseOver(this)" onmouseout="OnMouseOut(this)" onfocus="OnFocus(this)" onblur="OnBlur(this)"
+               patterm = "[0-9 +-]+">
+
+        <input type="text" name = "email" placeholder="Email" id="email" autocomplete="off"
+        onmouseover="OnMouseOver(this)" onmouseout="OnMouseOut(this)" onfocus="OnFocus(this)" onblur="OnBlur(this)"
+               pattern="\S+@[a-z0-9.-]+.[a-z]+">
+
+        <button type="submit" onmouseover="ButtonMouseOver(this)" onmouseout="ButtonMouseOut(this)"
+                onfocus="ButtonFocus(this)" onblur="ButtonBlur(this)">
+            ОТПРАВИТЬ ЗАПРОС
+        </button>
+    </form>
+</div>
+</body>
+</html>
+
+

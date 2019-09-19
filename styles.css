@@ -1,0 +1,127 @@
+
+form{
+    /* Rectangle */
+    /* Color/Neutral/5 - Grey 10% */
+    background: #F7F5F9;
+    border-radius: 12px;
+
+    width:481px;
+    height:392px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+input{
+/* Color/Neutral/6 - White */
+    background: #FFFFFF;
+    /* Dropshadow 1 */
+
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    border-style: none;
+
+    padding: 14px 35.12px 14px 15px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+
+    width: 351px;
+    height: 20px;
+
+    outline: none;
+    overflow: hidden;
+}
+
+::placeholder{
+    left: 3.74%;
+    right: 8.76%;
+    top: 29.17%;
+    bottom: 29.17%;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    color: #D0C9D6;
+    width:350.88px;
+    height:20px;
+}
+
+h1{
+    width: 168px;
+    height: 20px;
+
+    font-family: Roboto, sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+    display: flex;
+    align-items: center;
+    color: #3B3D43;
+
+    margin-left: 40px;
+    margin-right: 273px;
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+button{
+    /* Color/Accent/1 - Blue */
+    background: #6979F8;
+    border-radius: 6px;
+    width:401px;
+    height:48px;
+    padding: 13px 116px 13px 116px;
+    border-style:none;
+
+    margin-left:40px;
+    margin-right:40px;
+    margin-bottom:40px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    outline: none;
+    overflow: hidden;
+}
+
+.central{
+    width: 481px;
+    height:auto;
+    margin-top: 4.04%;
+    margin-left: calc(50% - 481px/2);
+    margin-right: calc(50% - 481px/2);
+}
+
+.mouseover{
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07), 0 0 0 1px #854FC8;
+}
+
+.button_mouseover{
+    box-shadow: 0 0 0 1px #899EFF;
+}
+
+.focus{
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07), 0 0 0 1px #854FC8;
+}
+
+.button_focus{
+    box-shadow: 0 0 0 1px #899EFF;
+}
+
